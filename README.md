@@ -49,4 +49,4 @@ The model is a Convolutional Neural Network (CNN) designed to classify the fashi
 - **Fully connected (Dense) layers**: Maps the extracted features to class probabilities
 - **Softmax layer**: Outputs the probability distribution over the 10 classes
 
-  ![Model Summary](
+  ![Model Summary](/"Model Summary.png")
