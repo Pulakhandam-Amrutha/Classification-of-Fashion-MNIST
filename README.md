@@ -28,7 +28,7 @@ The dataset contains 10 classes:
 10. Ankle boot
 
 ## Dataset
-The Fashion MNIST dataset is a benchmark dataset similar to the MNIST dataset, but instead of handwritten digits, it contains images of various fashion items.
+The Fashion MNIST dataset contains images of various fashion items.
 
 - **Training set**: 60,000 images
 - **Test set**: 10,000 images
@@ -39,3 +39,5 @@ You can download the Fashion MNIST dataset directly via TensorFlow or Keras usin
 
 ```python
 from tensorflow.keras.datasets import fashion_mnist
+
+### Model Architecture
