@@ -39,5 +39,14 @@ You can download the Fashion MNIST dataset directly via TensorFlow or Keras usin
 
 ```python
 from tensorflow.keras.datasets import fashion_mnist
+```
 
 ### Model Architecture
+The model is a Convolutional Neural Network (CNN) designed to classify the fashion images into one of 10 classes. The architecture includes:
+- **Input layer**: 28x28 grayscale images (1 channel)
+- **Conv2D layer**: Extracts features from the image (several convolutional layers with ReLU activation)
+- **MaxPooling layer**: Reduces the spatial dimensions of the feature maps
+- **Fully connected (Dense) layers**: Maps the extracted features to class probabilities
+- **Softmax layer**: Outputs the probability distribution over the 10 classes
+
+  ![Model Summary](
