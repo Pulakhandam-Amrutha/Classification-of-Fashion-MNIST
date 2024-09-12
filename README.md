@@ -7,9 +7,7 @@ This project demonstrates how to build and train a Convolutional Neural Network 
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
-- [License](#license)
 
 ## Project Overview
 The goal of this project is to build a robust image classification model using a CNN to predict the category of a fashion item based on the image provided. The model is trained and tested on the Fashion MNIST dataset, which contains images of items such as t-shirts, trousers, dresses, and shoes.
@@ -49,4 +47,23 @@ The model is a Convolutional Neural Network (CNN) designed to classify the fashi
 - **Fully connected (Dense) layers**: Maps the extracted features to class probabilities
 - **Softmax layer**: Outputs the probability distribution over the 10 classes
 
-  ![Model Summary](Model Summary.png)
+## Installation
+
+Follow these steps to set up the project environment:
+
+1. **Check Python Version**  
+   Ensure you have Python 3.x installed by running the following command:
+
+   ```bash
+   python --version
+   ```
+2. **Install Dependencies**
+After creating and activating the virtual environment (or in your existing environment), install the required packages using requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+### Results
+After training the model, you should expect to achieve an accuracy of around 90% on the test dataset. The following metrics can be used to evaluate the model performance:
+
+**Accuracy**: ~90%
+**Loss**: < 0.22
